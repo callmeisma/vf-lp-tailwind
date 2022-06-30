@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../dist/output.css" />
+    <link rel="stylesheet" href="https://rsms.me/inter/inter.css" />
+    <title>Product Page</title>
+  </head>
+  <body class="py-24">
+    <!-- Crumbs -->
+    <section id="crumbs">
+      <p>Something > Something</p>
+    </section>
+    <!-- Gallery & Prod Info-->
+    <section id="product" class="flex flex-col md:flex-row">
+      <!-- Gallery -->
+      <div id="gallery" class="flex flex-col">
+        <!-- Main Image -->
+        <div class="">
+          <img
+            src="https://dfd0f4930559ff4a51e6-15f7ef1303d84c664f64552cead0dad7.ssl.cf1.rackcdn.com/uploads/pattern_sku/pattern_sku_image/955537fb/635973243eab766ecb3ae873c28b55d7afe0a332.png"
+            alt=""
+            class="object-cover object-center w-full h-full"
+          />
+        </div>
+        <!-- Slider -->
+        <ul class="py-1 hidden md:block">
+          <li class="flex justify-center">
+            <img
+              src="https://dfd0f4930559ff4a51e6-15f7ef1303d84c664f64552cead0dad7.ssl.cf1.rackcdn.com/uploads/pattern_sku/pattern_sku_image/955537fb/635973243eab766ecb3ae873c28b55d7afe0a332.png"
+              alt=""
+              class="object-none object-center w-12 h-12 m-1"
+            />
+            <img
+              src="https://dfd0f4930559ff4a51e6-15f7ef1303d84c664f64552cead0dad7.ssl.cf1.rackcdn.com/uploads/pattern_sku/pattern_sku_image/955537fb/635973243eab766ecb3ae873c28b55d7afe0a332.png"
+              alt=""
+              class="object-none object-center w-12 h-12 m-1"
+            />
+            <img
+              src="https://dfd0f4930559ff4a51e6-15f7ef1303d84c664f64552cead0dad7.ssl.cf1.rackcdn.com/uploads/pattern_sku/pattern_sku_image/955537fb/635973243eab766ecb3ae873c28b55d7afe0a332.png"
+              alt=""
+              class="object-none object-center w-12 h-12 m-1"
+            />
+            <img
+              src="https://dfd0f4930559ff4a51e6-15f7ef1303d84c664f64552cead0dad7.ssl.cf1.rackcdn.com/uploads/pattern_sku/pattern_sku_image/955537fb/635973243eab766ecb3ae873c28b55d7afe0a332.png"
+              alt=""
+              class="object-none object-center w-12 h-12 m-1"
+            />
+            <img
+              src="https://dfd0f4930559ff4a51e6-15f7ef1303d84c664f64552cead0dad7.ssl.cf1.rackcdn.com/uploads/pattern_sku/pattern_sku_image/955537fb/635973243eab766ecb3ae873c28b55d7afe0a332.png"
+              alt=""
+              class="object-none object-center w-12 h-12 m-1"
+            />
+          </li>
+        </ul>
+        <div class="px-12">
+          <p class="text-xs text-right">Image shown as produced</p>
+        </div>
+      </div>
+      <!-- Product Info & Actions -->
+      <div id="prod" class="flex flex-col px-12 space-y-4 pt-4">
+        <!-- Prod Title -->
+        <div class="space-y-4 flex flex-col justify-evenly align-end">
+          <div class="flex flex-wrap justify-start">
+            <h1 class="uppercase font-bold text-4xl">CSV14-06</h1>
+          </div>
+          <!-- Prod Info -->
+          <div class="flex flex-wrap justify-between">
+            <div class="flex flex-col">
+              <h3 class="uppercase text-orange">pattern</h3>
+              <h3 class="uppercase">bucky</h3>
+            </div>
+            <div class="flex flex-col">
+              <h3 class="uppercase text-orange">color</h3>
+              <h3 class="uppercase">black magic</h3>
+            </div>
+            <div class="flex flex-col">
+              <h3 class="uppercase text-orange">sku</h3>
+              <h3 class="uppercase">CSV14-06-0</h3>
+            </div>
+          </div>
+        </div>
+        <!-- Prod Desc -->
+        <div class="desc">
+          <p>
+            Spicy jalapeno pancetta chuck tri-tip, strip steak salami brisket
+            meatloaf tenderloin chicken filet mignon cow. Strip steak kevin
+            brisket, chicken ball tip cow jerky bresaola sausage biltong fatback
+            filet mignon.
+          </p>
+        </div>
+        <!-- Prod CTA -->
+        <div class="flex justify-between">
+          <!-- Samples -->
+          <form class="flex items-center">
+            <select
+              class="p-2 px-3 text-center my-2 border rounded-l-md"
+              aria-label="sample quanitity"
+            >
+              <option value="1" selected>Qty: 1</option>
+              <option value="2">Qty: 2</option>
+              <option value="3">Qty: 3</option>
+              <option value="4">Qty: 4</option>
+              <option value="5">Qty: 5</option>
+            </select>
+            <input
+              type="submit"
+              value="Add to Cart"
+              class="p-2 px-3 text-center my-2 text-white bg-black rounded-r-md"
+            />
+          </form>
+          <!-- Actions -->
+          <div class="flex items-center space-x-1">
+            <!-- Like -->
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              class="h-6 w-6"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+              stroke-width="2"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z"
+              />
+            </svg>
+            <!-- PDF -->
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              class="h-6 w-6"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+              stroke-width="2"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M7 21h10a2 2 0 002-2V9.414a1 1 0 00-.293-.707l-5.414-5.414A1 1 0 0012.586 3H7a2 2 0 00-2 2v14a2 2 0 002 2z"
+              />
+            </svg>
+            <!-- Share -->
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              class="h-6 w-6"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+              stroke-width="2"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M8.684 13.342C8.886 12.938 9 12.482 9 12c0-.482-.114-.938-.316-1.342m0 2.684a3 3 0 110-2.684m0 2.684l6.632 3.316m-6.632-6l6.632-3.316m0 0a3 3 0 105.367-2.684 3 3 0 00-5.367 2.684zm0 9.316a3 3 0 105.368 2.684 3 3 0 00-5.368-2.684z"
+              />
+            </svg>
+          </div>
+        </div>
+        <!-- Prod Specs -->
+        <div class="flex flex-col">
+          <button class="py-2 uppercase accordion text-left active">
+            Specifications +
+          </button>
+          <table class="min-w-full panel">
+            <tbody>
+              <tr class="border-b">
+                <td class="px-6 py-4 text-sm font-medium text-gray-900">
+                  In Stock
+                </td>
+                <td class="text-sm text-gray-900 font-light px-6 py-4">
+                  0 yds
+                </td>
+              </tr>
+              <tr class="border-b">
+                <td class="px-6 py-4 text-sm font-medium text-gray-900">
+                  Content
+                </td>
+                <td class="text-sm text-gray-900 font-light px-6 py-4">
+                  <p>69% Nylon</p>
+                  <p>31% Polyurethane</p>
+                </td>
+              </tr>
+              <tr class="border-b">
+                <td class="px-6 py-4 text-sm font-medium text-gray-900">
+                  End Use
+                </td>
+                <td class="text-sm text-gray-900 font-light px-6 py-4">
+                  Drapery
+                </td>
+              </tr>
+              <tr class="border-b">
+                <td class="px-6 py-4 text-sm font-medium text-gray-900">
+                  Reversible
+                </td>
+                <td class="text-sm text-gray-900 font-light px-6 py-4">None</td>
+              </tr>
+              <tr class="border-b">
+                <td class="px-6 py-4 text-sm font-medium text-gray-900">
+                  Style
+                </td>
+                <td class="text-sm text-gray-900 font-light px-6 py-4">
+                  Solid
+                </td>
+              </tr>
+              <tr class="border-b">
+                <td class="px-6 py-4 text-sm font-medium text-gray-900">
+                  Type
+                </td>
+                <td class="text-sm text-gray-900 font-light px-6 py-4">
+                  Vinyl
+                </td>
+              </tr>
+              <tr class="border-b">
+                <td class="px-6 py-4 text-sm font-medium text-gray-900">
+                  Weight
+                </td>
+                <td class="text-sm text-gray-900 font-light px-6 py-4">
+                  2.31 (oz/yd)
+                </td>
+              </tr>
+              <tr class="border-b">
+                <td class="px-6 py-4 text-sm font-medium text-gray-900">
+                  Width
+                </td>
+                <td class="text-sm text-gray-900 font-light px-6 py-4">54"</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <!-- Product Performance -->
+        <div class="flex flex-col">
+          <button class="py-2 uppercase accordion text-left">
+            Certifications +
+          </button>
+          <table class="min-w-full panel hidden">
+            <tbody>
+              <tr class="border-b">
+                <td class="px-6 py-4 text-sm font-medium text-gray-900">Act</td>
+                <td
+                  class="text-sm text-gray-900 text-left font-light px-6 py-4"
+                >
+                  <p>Passes ASTM D4157</p>
+                  <p>Passes ASTM D4157</p>
+                </td>
+              </tr>
+              <tr class="border-b">
+                <td class="px-6 py-4 text-sm font-medium text-gray-900">
+                  Flammable
+                </td>
+                <td class="text-sm text-gray-900 font-light px-6 py-4">
+                  California Technical Bulletin 117, Section E
+                </td>
+              </tr>
+              <tr class="border-b">
+                <td class="px-6 py-4 text-sm font-medium text-gray-900">
+                  Oeko Tex
+                </td>
+                <td class="text-sm text-gray-900 font-light px-6 py-4">Yes</td>
+              </tr>
+              <tr class="border-b">
+                <td class="px-6 py-4 text-sm font-medium text-gray-900">
+                  Crocking
+                </td>
+                <td class="text-sm text-gray-900 font-light px-6 py-4">
+                  <p>Passes AATCC 8 Dry Crocking</p>
+                  <p>Passes AATCC 8 Wet Crocking</p>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <!-- Internal Status -->
+        <div class="flex flex-col">
+          <button class="py-2 uppercase accordion text-left">
+            Internal Info +
+          </button>
+          <table class="min-w-full panel hidden">
+            <tbody>
+              <tr class="border-b">
+                <td class="px-6 py-4 text-sm font-medium text-gray-900">
+                  Visibility
+                </td>
+                <td class="text-sm text-gray-900 font-light px-6 py-4">
+                  Visible Externally
+                </td>
+              </tr>
+              <tr class="border-b">
+                <td class="px-6 py-4 text-sm font-medium text-gray-900">
+                  Status
+                </td>
+                <td class="text-sm text-gray-900 font-light px-6 py-4">
+                  <p class="font-bold">Active</p>
+                  <p class="">
+                    If part of a booked collection, this item is current and our
+                    customer does not have any minimum order quantity
+                    requirement. If this is a custom, please confirm any MOQ
+                    with Product Development.
+                  </p>
+                </td>
+              </tr>
+              <tr class="bg-white border-b">
+                <td class="px-6 py-4 text-sm font-medium text-gray-900">
+                  Min QTY
+                </td>
+                <td class="text-sm text-gray-900 font-light px-6 py-4">0 YD</td>
+              </tr>
+              <tr class="bg-white border-b">
+                <td class="px-6 py-4 text-sm font-medium text-gray-900">
+                  Overstock
+                </td>
+                <td class="text-sm text-gray-900 font-light px-6 py-4">No</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+    <!-- Collection Details -->
+    <section id="details" class="py-6 px-12">
+      <button class="py-2 uppercase accordion text-left">
+        Additional Color Options +
+      </button>
+      <!-- Additional Options -->
+      <ul class="flex flex-wrap panel">
+        <li class="p-1 w-1/2">
+          <img
+            src="https://dfd0f4930559ff4a51e6-15f7ef1303d84c664f64552cead0dad7.ssl.cf1.rackcdn.com/uploads/pattern_sku/pattern_sku_image/955537fb/635973243eab766ecb3ae873c28b55d7afe0a332.png"
+            alt=""
+            class="object-none object-center"
+          />
+        </li>
+        <li class="p-1 w-1/2">
+          <img
+            src="https://dfd0f4930559ff4a51e6-15f7ef1303d84c664f64552cead0dad7.ssl.cf1.rackcdn.com/uploads/pattern_sku/pattern_sku_image/955537fb/635973243eab766ecb3ae873c28b55d7afe0a332.png"
+            alt=""
+            class="object-none object-center"
+          />
+        </li>
+        <li class="p-1 w-1/2">
+          <img
+            src="https://dfd0f4930559ff4a51e6-15f7ef1303d84c664f64552cead0dad7.ssl.cf1.rackcdn.com/uploads/pattern_sku/pattern_sku_image/955537fb/635973243eab766ecb3ae873c28b55d7afe0a332.png"
+            alt=""
+            class="object-none object-center"
+          />
+        </li>
+        <li class="p-1 w-1/2">
+          <img
+            src="https://dfd0f4930559ff4a51e6-15f7ef1303d84c664f64552cead0dad7.ssl.cf1.rackcdn.com/uploads/pattern_sku/pattern_sku_image/955537fb/635973243eab766ecb3ae873c28b55d7afe0a332.png"
+            alt=""
+            class="object-none object-center"
+          />
+        </li>
+        <li class="p-1 w-1/2">
+          <img
+            src="https://dfd0f4930559ff4a51e6-15f7ef1303d84c664f64552cead0dad7.ssl.cf1.rackcdn.com/uploads/pattern_sku/pattern_sku_image/955537fb/635973243eab766ecb3ae873c28b55d7afe0a332.png"
+            alt=""
+            class="object-none object-center"
+          />
+        </li>
+      </ul>
+    </section>
+    <script src="./index.js"></script>
+  </body>
+</html>
