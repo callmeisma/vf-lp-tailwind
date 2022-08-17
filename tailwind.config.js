@@ -11,7 +11,7 @@ module.exports = {
       xl: '1440px',
     }, 
     fontFamily: {
-      sans: ['Proxima Nova', ...defaultTheme.fontFamily.sans],
+      title: ['League Spartan', ...defaultTheme.fontFamily.sans],
     },
     extend: {
       colors: {
