@@ -12,6 +12,7 @@ module.exports = {
     }, 
     fontFamily: {
       title: ['League Spartan', ...defaultTheme.fontFamily.sans],
+      logo: ['Manjari', ...defaultTheme.fontFamily.sans],
     },
     extend: {
       colors: {
